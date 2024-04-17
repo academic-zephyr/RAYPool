@@ -1,0 +1,102 @@
+<mxfile host="Electron" modified="2024-04-17T15:46:13.207Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="oIUrhoW3LzHhXKxQ4lkg" version="24.2.5" type="device">
+  <diagram name="Page-1" id="dYHbyQ4LdmK137bAhzS8">
+    <mxGraphModel dx="1160" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YITO1Z6YVdrY7GOCufAp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="S4Tp86T-KJwRNlvkwirz-3" target="S4Tp86T-KJwRNlvkwirz-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YITO1Z6YVdrY7GOCufAp-10" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;New Request&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YITO1Z6YVdrY7GOCufAp-9">
+          <mxGeometry x="-0.0286" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4Tp86T-KJwRNlvkwirz-3" value="Instance Queue (N=5)" style="swimlane;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="150" y="120" width="240" height="288" as="geometry" />
+        </mxCell>
+        <mxCell id="S4Tp86T-KJwRNlvkwirz-2" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;vllm instance 6&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="S4Tp86T-KJwRNlvkwirz-3" vertex="1">
+          <mxGeometry x="60" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S4Tp86T-KJwRNlvkwirz-1" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;vllm instance 2&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="S4Tp86T-KJwRNlvkwirz-3" vertex="1">
+          <mxGeometry x="60" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S4Tp86T-KJwRNlvkwirz-5" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;vllm instance 3&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="S4Tp86T-KJwRNlvkwirz-3" vertex="1">
+          <mxGeometry x="60" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S4Tp86T-KJwRNlvkwirz-6" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;...&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="S4Tp86T-KJwRNlvkwirz-3" vertex="1">
+          <mxGeometry x="105" y="175" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YITO1Z6YVdrY7GOCufAp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="S4Tp86T-KJwRNlvkwirz-11" target="YITO1Z6YVdrY7GOCufAp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YITO1Z6YVdrY7GOCufAp-13" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Start to work&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YITO1Z6YVdrY7GOCufAp-12">
+          <mxGeometry x="-0.2473" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4Tp86T-KJwRNlvkwirz-11" value="Instance Queue (N=4)" style="swimlane;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="520" y="120" width="240" height="288" as="geometry" />
+        </mxCell>
+        <mxCell id="S4Tp86T-KJwRNlvkwirz-12" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;vllm instance 6&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="S4Tp86T-KJwRNlvkwirz-11" vertex="1">
+          <mxGeometry x="60" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S4Tp86T-KJwRNlvkwirz-14" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;vllm instance 2&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;poping ...&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="S4Tp86T-KJwRNlvkwirz-11" vertex="1">
+          <mxGeometry x="60" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S4Tp86T-KJwRNlvkwirz-15" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;...&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="S4Tp86T-KJwRNlvkwirz-11" vertex="1">
+          <mxGeometry x="105" y="175" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S4Tp86T-KJwRNlvkwirz-17" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;vllm instance 3&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="S4Tp86T-KJwRNlvkwirz-11" vertex="1">
+          <mxGeometry x="60" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YITO1Z6YVdrY7GOCufAp-17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="YITO1Z6YVdrY7GOCufAp-1" target="YITO1Z6YVdrY7GOCufAp-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YITO1Z6YVdrY7GOCufAp-18" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Putting back to Queue&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YITO1Z6YVdrY7GOCufAp-17">
+          <mxGeometry x="0.0385" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YITO1Z6YVdrY7GOCufAp-1" value="Thread Pool (N=1)" style="swimlane;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="340" y="660" width="240" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="YITO1Z6YVdrY7GOCufAp-4" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;vllm instance 1 working ...&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YITO1Z6YVdrY7GOCufAp-1">
+          <mxGeometry x="58" y="89" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YITO1Z6YVdrY7GOCufAp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;" edge="1" parent="1" source="YITO1Z6YVdrY7GOCufAp-3" target="YITO1Z6YVdrY7GOCufAp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YITO1Z6YVdrY7GOCufAp-15" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Work is done&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YITO1Z6YVdrY7GOCufAp-14">
+          <mxGeometry x="0.1933" relative="1" as="geometry">
+            <mxPoint x="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YITO1Z6YVdrY7GOCufAp-3" value="Thread Pool (N=2)" style="swimlane;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="600" y="460" width="240" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="YITO1Z6YVdrY7GOCufAp-5" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;vllm instance 1 working ...&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YITO1Z6YVdrY7GOCufAp-3">
+          <mxGeometry x="60" y="47" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YITO1Z6YVdrY7GOCufAp-6" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;vllm instance 2 working ...&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YITO1Z6YVdrY7GOCufAp-3">
+          <mxGeometry x="60" y="133" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YITO1Z6YVdrY7GOCufAp-19" value="Instance Queue (N=5)" style="swimlane;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="60" y="430" width="240" height="288" as="geometry" />
+        </mxCell>
+        <mxCell id="YITO1Z6YVdrY7GOCufAp-20" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;vllm instance 2&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YITO1Z6YVdrY7GOCufAp-19">
+          <mxGeometry x="60" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YITO1Z6YVdrY7GOCufAp-21" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;vllm instance 3&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YITO1Z6YVdrY7GOCufAp-19">
+          <mxGeometry x="60" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YITO1Z6YVdrY7GOCufAp-22" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;vllm instance 4&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YITO1Z6YVdrY7GOCufAp-19">
+          <mxGeometry x="60" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YITO1Z6YVdrY7GOCufAp-23" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;...&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YITO1Z6YVdrY7GOCufAp-19">
+          <mxGeometry x="105" y="175" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
