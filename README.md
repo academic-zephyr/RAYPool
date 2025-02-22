@@ -18,7 +18,7 @@ To use RAYPool for offline inference, follow these steps:
 
 Example:
 ```bash
-python ./scripts/ray_few_test.py --config config.yaml
+python ./scripts/ray_few_test.py
 ```
 
 ## Features
